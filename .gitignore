@@ -97,3 +97,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#ignore 
+#忽略gitignore文件  
+.gitignore 
+.DS_Store   
+.gitattributes
