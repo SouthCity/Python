@@ -18,7 +18,6 @@ def input_website(url_string):
         with open('email.txt','w',encoding = 'UTF-8-sig') as f:
             print ('path'+os.path.abspath('email.txt'))
             f.write('\n'.join(emails))
-            os.system('notepad python.txt')   
             for email in emails:
                 print(email)
     else:
